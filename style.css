@@ -10,7 +10,7 @@
 body {
     font-family:sans-serif;
     color: var(--color4);
-    background-image: url('images/landscape.jpg');
+    background-image: url('landscape.jpg');
     background-repeat: no-repeat;
     background-color:var(--color5);
     background-size:cover;
