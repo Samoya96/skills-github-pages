@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link  rel = "stylesheet" href = "./style.css"/>
+        <link rel = "icon" type = "image/gif" href = "./ndlogo.png"/>
+        <script src = "formvalidation.js" defer></script>
+</head>
+<body class = "city-background">
+    <header>
+        <div class="header-container"> 
+            <p>The State of North Dakota</p>
+            <img src="images/ndlogo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <a href = "index.html">Home</a> &nbsp;
+        <a href ="bismarck.html">Bismarck</a> &nbsp;
+        <a href ="fargo.html">Fargo</a> &nbsp;
+        <a href = "wahpeton.html">Wahpeton</a>&nbsp;
+        <a href = "explore.html">Explore</a>&nbsp;
+        <a href="https://www.jobsnd.com/" target = "_blank">ND Jobs</a>&nbsp;
+        <a href = "contact.html">Contact Us</a>&nbsp;
+    </nav>
+    <ul class = "breadcrumb">
+        <li><a href = "index.html">Home</a></li>
+        <li>Contact Us</li>
+    </ul>
+    </nav>
+    <section>
+        <h1 id = "city-h1">Contact Us</h1>
+        <form action = "#" method = "post" id = "contactForm" onsubmit = "return validateForm()">
+           <p class = "form-paragraphs">
+                <label for="first">First Name:</label>
+                <input type="text" name="first" id="first" placeholder="Enter your first name">
+            </p>
+            <p>
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last" placeholder="Enter your last name">
+            </p>
+            <p>
+                <label for = "email">Email Address:</label>
+            <input type = "email" name = "email" id = "email" placeholder="Enter your email address">
+            </p>
+            <p>
+                <label for = "email-confirmation">Confirm Email Address:</label>
+                <input type = "email" name = "email-confirmation" id = "confirmEmail" placeholder="Confirm your email address">
+            </p>
+            <p>
+                <label for = "question">Ask a Question:</label >
+                <textarea name = "question" id = "question" rows = "8" placeholder="Enter your question"></textarea>
+            </p>
+            <p>
+                <input type = "submit" value = "Submit" class = "submit-button" >
+            </p>
+        </form>
+    </section>
+    
+    <aside class = "global-aside">
+        <p>Let's connect on <a href="#">Instagram</a>! Follow us for travel tips and guides, local events and festivals, and a closer look at everything that makes North Dakota special!</p>
+    </aside>
+    
+</body>   
+</html>
